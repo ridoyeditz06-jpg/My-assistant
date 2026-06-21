@@ -1,0 +1,17 @@
+{
+    "apps": {
+        "youtube": "am start -n com.google.android.youtube/com.google.android.apps.youtube.app.WatchActivity",
+        "facebook": "am start -n com.facebook.katana/com.facebook.katana.LoginActivity",
+        "whatsapp": "am start -n com.whatsapp/com.whatsapp.HomeActivity",
+        "instagram": "am start -n com.instagram.android/com.instagram.android.activity.MainTabActivity",
+        "chrome": "am start -n com.android.chrome/com.google.android.apps.chrome.Main"
+    },
+    "settings": {
+        "wifi_on": "svc wifi enable",
+        "wifi_off": "svc wifi disable",
+        "torch_on": "termux-torch on",
+        "torch_off": "termux-torch off",
+        "dnd_on": "settings put global zen_mode 1",
+        "dnd_off": "settings put global zen_mode 0"
+    }
+}
